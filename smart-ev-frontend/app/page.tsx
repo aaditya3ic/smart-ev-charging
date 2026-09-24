@@ -4,7 +4,7 @@ import Link from "next/link";
 export default async function Home() {
   let stations = [];
   try {
-    const res = await fetch("http://127.0.0.1:8000/api/stations", {
+    const res = await fetch("https://ev-ai-engine.onrender.com/api/stations", {
       cache: "no-store",
     });
     stations = await res.json();
