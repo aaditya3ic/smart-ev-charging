@@ -1,0 +1,35 @@
+{
+    "stations": [
+        {
+            "id": "st-1",
+            "name": "Central Hub Station",
+            "location": "Sector 62, Metro Corridor",
+            "totalSlots": 6,
+            "availableSlots": 4,
+            "maxPowerKw": 50,
+            "transformerCapacityKw": 180,
+            "currentLoadKw": 95
+        },
+        {
+            "id": "st-2",
+            "name": "Tech Park Supercharger",
+            "location": "Block B, Expressway",
+            "totalSlots": 8,
+            "availableSlots": 1,
+            "maxPowerKw": 120,
+            "transformerCapacityKw": 350,
+            "currentLoadKw": 310
+        },
+        {
+            "id": "st-3",
+            "name": "Green Valley Station",
+            "location": "Ring Road North",
+            "totalSlots": 4,
+            "availableSlots": 3,
+            "maxPowerKw": 22,
+            "transformerCapacityKw": 80,
+            "currentLoadKw": 30
+        }
+    ],
+    "bookings": []
+}
