@@ -30,12 +30,7 @@ export default async function Home() {
               <span className="h-2.5 w-2.5 animate-pulse rounded-full bg-emerald-500"></span>
               <span className="text-xs font-semibold text-emerald-800">Grid Optimal</span>
             </div>
-            <Link
-              href="/login"
-              className="rounded-xl bg-slate-900 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-slate-800"
-            >
-              Sign In
-            </Link>
+            <Link href="/login" className="bg-slate-900 text-white ...">Sign In</Link>
           </div>
         </div>
 
